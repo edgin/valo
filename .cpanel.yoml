@@ -2,7 +2,7 @@
 deployment:
   tasks:
 #root of your website
-    - export DEPLOYPATH=/home/public_html/
+    - export DEPLOYPATH=/home/valofcag/public_html/
 
 #copy all from the root
      - cp -r * $DEPLOYPATH
