@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+#root of your website
+    - export DEPLOYPATH=/home/public_html/
+
+#copy all from the root
+     - cp -r * $DEPLOYPATH
