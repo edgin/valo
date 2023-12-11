@@ -8,5 +8,5 @@ on:
 jobs:
   new-test:
     steps:
-        uses: actions/checkout@v4
-      - name: checkout something
+       uses: actions/checkout@v4
+      -name: checkout something
