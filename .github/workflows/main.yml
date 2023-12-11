@@ -10,5 +10,10 @@ jobs:
     name: test
 
     steps:
-      - name: checkout something
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - id: foo
+        uses: actions/hello-world-composite-action@v1
+        with:
+          who-to-greet: 'Mona the Octocat'
+      - run: echo random-number ${{ steps.foo.outputs.random-number }}
+        shell: bash
