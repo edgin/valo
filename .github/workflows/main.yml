@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     steps:
-    - name: Checkout
+    - name: Checkout branch
       uses: actions/checkout@v2
 
  
