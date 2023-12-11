@@ -6,7 +6,7 @@ on:
       -main
 
 jobs:
-  test:
+  new-test:
     steps:
       - name: checkout something
         uses: actions/checkout@v4
