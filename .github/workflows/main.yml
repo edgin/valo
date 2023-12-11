@@ -7,8 +7,6 @@ on:
 
 jobs:
   steps: 
-    - name: checkout code
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-    - name: Every time
-      run: echo "This step will always run"
+    - run: echo "This step will always run"
