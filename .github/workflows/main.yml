@@ -8,5 +8,5 @@ on:
 jobs: 
   deploy:  
     steps: 
-      -name: checkout 
+       name: checkout 
        uses: actions/checkout@4
