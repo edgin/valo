@@ -5,10 +5,9 @@ on:
     branches: 
       -main
 
-jobs: 
-  deploy:  
+jobs:
+
+  job1:  
     steps: 
       - name: checkout repo 
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
