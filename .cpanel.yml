@@ -5,4 +5,4 @@ deployment:
     - export DEPLOYPATH=/home/valofcag/public_html/
 
     #copy all from the root
-    - cp -r * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
