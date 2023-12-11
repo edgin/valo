@@ -9,5 +9,5 @@ jobs:
 
   job1:  
     steps: 
-      - name: checkout repo 
-        uses: actions/checkout@v4
+    - name: checkout repo 
+      uses: actions/checkout@v4
