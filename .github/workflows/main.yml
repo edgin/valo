@@ -3,10 +3,10 @@ name: Deploy branch on push
 on:
   push: 
     branches: 
-      -main
+      - main
 
 jobs:
   new-test:
     steps:
        uses: actions/checkout@v4
-      -name: checkout something
+      - name: checkout something
