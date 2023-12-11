@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  new-test:
+  test:   
     name: test
 
     steps:
-       uses: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: checkout something
