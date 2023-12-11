@@ -6,8 +6,8 @@ on:
       -main
 
 jobs:
-
-  job1: 
-    steps: 
-      - name: checkout repo 
-        uses: actions/checkout@v4
+  steps: 
+    - name: checkout repo 
+      uses: actions/checkout@v4
+    - name: Every time
+      run: echo "This step will always run"
