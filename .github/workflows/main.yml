@@ -6,7 +6,8 @@ on:
       -main
 
 jobs:
-  steps: 
-    - uses: actions/checkout@v4
+  test:
+    steps: 
+      - uses: actions/checkout@v4
 
-    - run: echo "This step will always run"
+      - run: echo "This step will always run"
