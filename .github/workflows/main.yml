@@ -8,7 +8,13 @@ on:
 jobs:
   test:
     steps:
-      - name: List files in the repository
+      - name: Show the demo running
+        env:
+          VAR1: This is
+          VAR2: A Demo of
+          VAR3: GitHub Actions
+          VAR4: Workflow jobs
         run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+          echo $VAR1 $VAR2 $VAR3 $VAR4.
+
+ 
