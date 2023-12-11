@@ -1,8 +1,5 @@
 ---
 deployment:
   tasks:
-   #root of your website
     - export DEPLOYPATH=/home/valofcag/public_html/
-
-    #copy all from the root
     - /bin/cp -R * $DEPLOYPATH
