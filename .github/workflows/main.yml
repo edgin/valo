@@ -7,5 +7,6 @@ on:
 
 jobs:
   test:   
-    steps:
-      - uses: actions/checkout@v4
+    runs-on: self-hosted
+      steps:
+        - uses: actions/checkout@v4
