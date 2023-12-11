@@ -9,6 +9,6 @@ jobs:
   test:
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout
+      - name: Checkout branch
 
  
