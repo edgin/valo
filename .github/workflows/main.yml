@@ -9,4 +9,4 @@ jobs:
   deploy:  
     steps: 
       -name: checkout 
-       uses: "actions/checkout@4"
+       uses: actions/checkout@4
