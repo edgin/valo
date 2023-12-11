@@ -8,13 +8,7 @@ on:
 jobs:
   test:
     steps:
-      - name: Show the demo running
-        env:
-          VAR1: This is
-          VAR2: A Demo of
-          VAR3: GitHub Actions
-          VAR4: Workflow jobs
-        run: |
-          echo $VAR1 $VAR2 $VAR3 $VAR4.
+      - uses: actions/checkout@v2
+      - name: Checkout
 
  
