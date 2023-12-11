@@ -8,6 +8,6 @@ on:
 jobs:
   test:
     steps: 
-      - uses: actions/checkout@v4
-
-      - run: echo "This step will always run"
+    - uses: actions/checkout@v4
+  
+    - run: echo "This step will always run"
